@@ -4,10 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <script type="module" src="main.js" defer></script>
+  <title>Restaurant App - Advanced JS</title>
+  <script type="module" src="./advanced-JS-assignments1/main.js"></script>
 </head>
 <body>
-<h1>Sample Page</h1>
+<h1>Restaurant App</h1>
+
+<!-- Container hiển thị lỗi -->
+<div id="error-message" style="color: red; display: none;"></div>
+
+<!-- Nút bấm lọc theo yêu cầu bài tập 2 -->
+<div class="filters">
+  <button id="filter-sodexo">Sodexo</button>
+  <button id="filter-compass">Compass</button>
+  <button id="filter-all">Show All</button>
+</div>
+
+<!-- Bảng danh sách nhà hàng -->
+<table>
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Company</th>
+    <th>Address</th>
+  </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+<!-- Modal hiện menu -->
+<dialog></dialog>
 </body>
 </html>
